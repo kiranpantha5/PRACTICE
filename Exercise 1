@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+  
+
+<header>
+  <div class="navbar">
+    <div class="logo">
+      <img width="134.8px" src="logo.webp" alt="ultra img">
+
+    </div>
+    <div class="navtag">
+      <span>product</span><i class="fa-solid fa-angle-down"></i>
+      <span>pricing</span><i class="fa-solid fa-angle-down"></i>  
+      <span>Resources </span><i class="fa-solid fa-angle-down"></i>
+      <span>About us</span><i class="fa-solid fa-angle-down"></i>
+      <span>security and compliance</spa<i class="fa-solid fa-angle-down"></i>
+
+
+    </div>
+  </div>
+</header>
+ <div class="navbar">
+      <div class="logo">
+        <img width="134.8px" src="logo.webp" alt="ultra img">
+
+      </div>
+      <div class="navtag">
+        <span>product</span><i class="fa-solid fa-angle-down"></i>
+        <span>pricing</span><i class="fa-solid fa-angle-down"></i>
+        <span>Resources </span><i class="fa-solid fa-angle-down"></i>
+        <span>About us</span><i class="fa-solid fa-angle-down"></i>
+        <span>security and compliance</spa<i class="fa-solid fa-angle-down"></i>
+
+
+      </div>
+    </div>
+  </header>
+
+
+  <main>
+    <section class="first ">
+      <span>Download ultraedit for Window <img width="87px" src="img.png"></span>
+
+
+      <p>
+        Download and try UltraEdit before you buy it! This download includes the full Windows version of the text
+        editor.
+      </p>
+
+      <div>
+
+        <button>
+          Download mac or linux version
+        </button>
+
+      </div>
+
+    </section>
+
+    <section class="second">
+      <div class="download">
+        <span>Download UltraEdit</span>
+        <span class="small">v2024.0(released 04/19/2024) | Hotfix</span>
+       
+      </div>
+    </section>
+
+    <section class="grid">
+      <div class="item">
+            <div class="lan">
+              English
+            </div>
+            <button class="btn">Download 64-bit </button>
+      </div> 
+
+      <div class="item">
+        <div class="lan">
+          English
+        </div>
+        <button class="btn">Download 64-bit </button>
+  </div> 
+  <div class="item">
+    <div class="lan">
+      English
+    </div>
+    <button class="btn">Download 64-bit </button>
+</div> 
+<div class="item">
+  <div class="lan">
+    English
+  </div>
+  <button class="btn">Download 64-bit </button>
+</div> 
+<div class="item">
+  <div class="lan">
+    English
+  </div>
+  <button class="btn">Download 64-bit </button>
+</div> 
+    </section>
+  </main>
+
+
+
+
+</body>
+</html>
+.......................................................................................................................................................................................
+
+*{
+  padding: 0;
+  margin: 0;
+  color: black;
+}
+
+
+
+
+.navbar{
+  height: 70px;
+  width:100vw;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo{
+  color: white;
+  
+
+}
+
+  
+
+}
+.navtag{
+  display: flex;
+  gap: 25PX;
+  
+
+
+
+}
+i{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.first{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 80px;
+  font-family: sans-serif;
+}
+
+.first span{
+  font-size: 40px;
+}
+.first img{
+  margin: 0px 20px;
+}
+
+
+.first p{
+  font-size: 23px;
+ width: 40vw;
+ text-align: center;
+}
+
+
+button{
+  background-color: #00b6d1;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 19px;
+    height: 51px;
+    border: none;
+}
+.small{
+  font-size: 12px;
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.box{
+  width: 31vw;
+  height: 40px;
+  background-color: red;
+}
+
+.grid{
+  max-width: 70vw;
+  margin: auto;
+
+
+  background-color: rgb(194, 194, 36);
+  
+
+}
+
+.item{
+  font-size: 17px;
+  background-color: gray;
+  padding: 23px;
+  text-align: center;
+  border-radius: 12px;
+  font-family: sans-serif;
+
+}
+.btn{
+  color: rgb(48, 48, 108);
+
+}
+.lan{
+  padding-bottom: 33px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 12px;
+}
+
+
